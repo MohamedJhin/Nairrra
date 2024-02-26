@@ -1,0 +1,35 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: black; /* Set the background color to black <sup className="rounded-full text-xs cursor-pointer [&>*]:!text-white h-4 w-4 px-1 bg-slate-400 hover:bg-slate-500 dark:bg-slate-700 hover:dark:bg-slate-600">[3](https://www.quora.com/How-do-you-create-a-black-background-in-HTML-with-an-image)</sup>  */
+}
+
+#gallery-container {
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center the gallery-container vertically and horizontally <sup className="rounded-full text-xs cursor-pointer [&>*]:!text-white h-4 w-4 px-1 bg-slate-400 hover:bg-slate-500 dark:bg-slate-700 hover:dark:bg-slate-600">[2](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position)</sup>  */
+}
+
+#gallery img {
+    max-width: 90%;
+    max-height: 80vh;
+    display: block; /* Make sure the image is centered inside the gallery-container */
+    margin: auto; /* Further center the image <sup className="rounded-full text-xs cursor-pointer [&>*]:!text-white h-4 w-4 px-1 bg-slate-400 hover:bg-slate-500 dark:bg-slate-700 hover:dark:bg-slate-600">[1](https://stackoverflow.com/questions/2643305/centering-a-background-image-using-css)</sup>  */
+}
+
+button {
+    border: none;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 1em;
+    color: black;
+    outline: none;
+    /* Design the buttons to look good next to the image */
+}
+
+/* Additional desired styling for the buttons can go here */
